@@ -101,9 +101,22 @@
    
   - Utilizando resolución de 16 bits
     
-    <img src="https://github.com/HeisenDiaz/Temporizadores/blob/main/Screenshot%202025-04-12%20214436.png" width="30%">
+    <img src="https://github.com/HeisenDiaz/Temporizadores/blob/main/Screenshot%202025-04-12%20214436.png" width="50%">
 
 ### 5.4 Precarga registro TMRX
 
   - Desea precargar el registro para que realice un conteo de 5ms
+
+<img src="https://github.com/HeisenDiaz/Temporizadores/blob/main/Screenshot%202025-04-12%20215122.png" width="50%">
     
+## 6. Conclusiones
+- Los temporizadores y contadores son herramientas esenciales en microcontroladores, ya que permiten gestionar el tiempo y contar eventos internos o externos con alta precisión y eficiencia
+- La resolución del temporizador (8 o 16 bits) define su capacidad de conteo, y al utilizar 16 bits se pueden alcanzar tiempos más largos antes de un desbordamiento, aunque se requieren dos registros para el manejo del dato
+- El prescaler amplía el rango de conteo del temporizador, al dividir la frecuencia de entrada, permitiendo así medir intervalos de tiempo más largos sin modificar la resolución
+- Los temporizadores del PIC18F4550 como TIMER0, TIMER1 y TIMER3 ofrecen hasta 16 bits de resolución, lo que permite su uso tanto como temporizadores como contadores, dependiendo de la configuración de sus registros y pines asociados
+- El manejo correcto de las interrupciones por desbordamiento y el uso de banderas es vital para asegurar que el sistema responda correctamente al fin de un periodo temporizado
+
+## 7. Autores
+
+  ### Luis Fernando Pulido Salazar - 76257
+  ### Heisen Jawer Diaz Ascencio - 137604
