@@ -65,14 +65,18 @@
  - Cristales o osciladores externos o osciladores internos
 
  **TIMER DISPONIBLES**
-        - **TIMER 0**
-            - Hasta 16 Bits, temporizador o contador
-        - **TIMER 1**
-            - Hasta 16 Bits, temporizador o contador
-        - **TIMER 2**
-            - Limitado a 8 Bits, temporizador
-        - **TIMER 3**
-            - Hasta 16 Bits, temporizador o contador
+ 
+   - **TIMER 0**
+       - Hasta 16 Bits, temporizador o contador
+
+   - **TIMER 1**
+       - Hasta 16 Bits, temporizador o contador
+            
+   - **TIMER 2**
+       - Limitado a 8 Bits, temporizador
+            
+   - **TIMER 3**
+       - Hasta 16 Bits, temporizador o contador
 
 #### 5.2.1 TIMER 0
 
@@ -96,3 +100,10 @@
 ### 5.3 Máximo conteo timer
    
   - Utilizando resolución de 16 bits
+    
+    <img src="https://github.com/HeisenDiaz/Temporizadores/blob/main/Screenshot%202025-04-12%20214436.png" width="30%">
+
+### 5.4 Precarga registro TMRX
+
+  - Desea precargar el registro para que realice un conteo de 5ms
+    
